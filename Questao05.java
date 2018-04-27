@@ -35,7 +35,7 @@ public class Questao05 {
                 JOptionPane.showMessageDialog(null,"Parâmetro incorreto, digite novamente");
             }
 
-            if (opcao!=5) {
+            if (opcao<5 && opcao>0) {
                 JOptionPane.showMessageDialog(null,"O resultado é: "+resultado);
             }
 
